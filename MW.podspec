@@ -39,11 +39,12 @@ Pod::Spec.new do |s|
 
   s.dependency 'MBProgressHUD', '~> 1.0.0'
   s.dependency 'DACircularProgress', '~> 2.3.1'
+  s.dependency 'ASValueTrackingSlider'
 
   # SDWebImage
   # 3.7.2 contains bugs downloading local files
   # https://github.com/rs/SDWebImage/issues/1109
+
   s.dependency 'SDWebImage', '~> 4.0.0'
-  s.dependency 'ASValueTrackingSlider', '~> 4.0.0'
 
 end
