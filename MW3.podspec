@@ -39,6 +39,7 @@ Pod::Spec.new do |s|
 
   s.dependency 'MBProgressHUD', '~> 1.0.0'
   s.dependency 'DACircularProgress', '~> 2.3.1'
+  s.dependency 'HTPullToRefresh'
 
   # SDWebImage
   # 3.7.2 contains bugs downloading local files
